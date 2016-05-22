@@ -1,0 +1,8 @@
+useDynLib(Branching, rBGWMindependent, rBGWMmultinomial, rBGWMgeneral)
+export("rBGWM")
+export("BGWM.mean")
+export("BGWM.covar")
+export("BGWM.mean.estim")
+export("BGWM.covar.estim")
+importFrom("stats", "aggregate")
+importFrom("utils", "combn")

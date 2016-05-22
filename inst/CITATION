@@ -1,0 +1,17 @@
+citHeader("To cite Branching in publications use this reference:")
+citEntry(
+entry="Mastersthesis",
+author = "Camilo Jose Torres-Jimenez",
+title = "{Relative frequencies and parameter estimation in multi-type Bienaymé - Galton - Watson processes}",
+school = "Master of Science in Statistics. Universidad Nacional de Colombia",
+year = "2010",
+month = "Marzo",
+address = "Bogotá, Colombia",
+textVersion =
+paste("Torres-Jimenez, C. J. ",
+	    "(2010), ",
+      "Relative frequencies and parameter estimation in multi-type Bienaymé - Galton - Watson processes, ",
+      "Master of Science in Statistics. Universidad Nacional de Colombia, ",
+      "Bogota, Colombia.",
+      sep="")
+)
