@@ -188,7 +188,7 @@ extern "C"  {
             for(l = 1 ; l <= z0[k] ; l++)
             {
               //
-              nro_hijos = cut0( round(rnorm(param_dists[aux2], param_dists[1 + aux2])) );
+              nro_hijos = cut0( fround(rnorm(param_dists[aux2], param_dists[1 + aux2]),0) );
               //
               if(nro_hijos > 0)
               {
@@ -205,7 +205,7 @@ extern "C"  {
             for(l = 1 ; l <= z0[k] ; l++)
             {
               //
-              nro_hijos = round(rlnorm(param_dists[aux2], param_dists[1 + aux2]));
+              nro_hijos = fround(rlnorm(param_dists[aux2], param_dists[1 + aux2]),0);
               //
               if(nro_hijos > 0)
               {
@@ -222,7 +222,7 @@ extern "C"  {
             for(l = 1 ; l <= z0[k] ; l++)
             {
               //
-              nro_hijos = round(rgamma(param_dists[aux2], param_dists[1 + aux2]));
+              nro_hijos = fround(rgamma(param_dists[aux2], param_dists[1 + aux2]),0);
               //
               if(nro_hijos > 0)
               {
@@ -444,7 +444,7 @@ extern "C"  {
                 //
                 for(l = 1 ; l <= cdata[aux] ; l++)
                 {
-                  nro_hijos = cut0( round(rnorm(param_dists[aux2], param_dists[1 + aux2])) );
+                  nro_hijos = cut0( fround(rnorm(param_dists[aux2], param_dists[1 + aux2]),0) );
                   //
                   if(nro_hijos > 0)
                   {
@@ -472,7 +472,7 @@ extern "C"  {
                 //
                 for(l = 1 ; l <= cdata[aux] ; l++)
                 {
-                  nro_hijos = round(rlnorm(param_dists[aux2], param_dists[1 + aux2]));
+                  nro_hijos = fround(rlnorm(param_dists[aux2], param_dists[1 + aux2]),0);
                   //
                   if(nro_hijos > 0)
                   {
@@ -500,7 +500,7 @@ extern "C"  {
                 //
                 for(l = 1 ; l <= cdata[aux] ; l++)
                 {
-                  nro_hijos = round(rgamma(param_dists[aux2], param_dists[1 + aux2]));
+                  nro_hijos = fround(rgamma(param_dists[aux2], param_dists[1 + aux2]),0);
                   //
                   if(nro_hijos > 0)
                   {
@@ -773,7 +773,7 @@ extern "C"  {
               for(l = 1 ; l <= z0[k] ; l++)
               {
                 //
-                cdata[aux] += cut0( round(rnorm(param_dists[aux2], param_dists[1 + aux2])) );
+                cdata[aux] += cut0( fround(rnorm(param_dists[aux2], param_dists[1 + aux2]),0) );
               } //end for(l)
               break;
             case 8:
@@ -781,7 +781,7 @@ extern "C"  {
               for(l = 1 ; l <= z0[k] ; l++)
               {
                 //
-                cdata[aux] += round(rlnorm(param_dists[aux2], param_dists[1 + aux2]));
+                cdata[aux] += fround(rlnorm(param_dists[aux2], param_dists[1 + aux2]),0);
               } //end for(l)
               break;
             case 9:
@@ -789,7 +789,7 @@ extern "C"  {
               for(l = 1 ; l <= z0[k] ; l++)
               {
                 //
-                cdata[aux] += round(rgamma(param_dists[aux2], param_dists[1 + aux2]));
+                cdata[aux] += fround(rgamma(param_dists[aux2], param_dists[1 + aux2]),0);
               } //end for(l)
               break;
           } //end switch
@@ -882,21 +882,21 @@ extern "C"  {
                   //
                   for(l = 1 ; l <= cdata[aux_i_1] ; l++)
                   {
-                    cdata[aux_i] += cut0( round(rnorm(param_dists[aux2], param_dists[1 + aux2])) );
+                    cdata[aux_i] += cut0( fround(rnorm(param_dists[aux2], param_dists[1 + aux2]),0) );
                   } //end for(l)
                   break;
                 case 8:
                   //
                   for(l = 1 ; l <= cdata[aux_i_1] ; l++)
                   {
-                    cdata[aux_i] += round(rlnorm(param_dists[aux2], param_dists[1 + aux2]));
+                    cdata[aux_i] += fround(rlnorm(param_dists[aux2], param_dists[1 + aux2]),0);
                   } //end for(l)
                   break;
                case 9:
                   //
                   for(l = 1 ; l <= cdata[aux_i_1] ; l++)
                   {
-                    cdata[aux_i] += round(rgamma(param_dists[aux2], param_dists[1 + aux2]));
+                    cdata[aux_i] += fround(rgamma(param_dists[aux2], param_dists[1 + aux2]),0);
                   } //end for(l)
                   break;
               } //end switch
