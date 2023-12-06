@@ -1,4 +1,4 @@
-\name{BGWM.mean}
+﻿\name{BGWM.mean}
 \alias{BGWM.mean}
 \alias{BGWM.gener.mean}
 \alias{BGWM.indep.mean}
@@ -135,7 +135,7 @@ BGWM.mean(dists, type=c("general","multinomial","independents"),
 }
 \references{
 Torres-Jimenez, C. J. (2010), Relative frequencies and parameter 
-estimation in multi-type Bienaym? - Galton - Watson processes, 
+estimation in multi-type Bienayme - Galton - Watson processes, 
 Master's Thesis, Master of Science in Statistics.
 Universidad Nacional de Colombia. Bogota, Colombia.
 

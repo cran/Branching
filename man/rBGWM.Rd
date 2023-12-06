@@ -1,4 +1,4 @@
-\name{rBGWM}
+﻿\name{rBGWM}
 \alias{rBGWM}
 \alias{rBGWM.gener}
 \alias{rBGWM.indep}
@@ -145,7 +145,7 @@ process with the relative frequencies by type.}
 }
 \references{
 Torres-Jimenez, C. J. (2010), Relative frequencies and parameter 
-estimation in multi-type Bienaym? - Galton - Watson processes, 
+estimation in multi-type Bienayme - Galton - Watson processes, 
 Master's Thesis, Master of Science in Statistics.
 Universidad Nacional de Colombia. Bogota, Colombia.
 

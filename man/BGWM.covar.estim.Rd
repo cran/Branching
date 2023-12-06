@@ -1,4 +1,4 @@
-\name{BGWM.covar.estim}
+﻿\name{BGWM.covar.estim}
 \alias{BGWM.covar.estim}
 \alias{BGWM.covar.EE}
 \alias{BGWM.covar.MLE}
@@ -41,7 +41,7 @@ BGWM.covar.estim(sample, method=c("EE-m","MLE-m"), d, n, z0)
 }
 \references{
 Torres-Jimenez, C. J. (2010), Relative frequencies and parameter 
-estimation in multi-type Bienaym? - Galton - Watson processes, 
+estimation in multi-type Bienayme - Galton - Watson processes, 
 Master's Thesis, Master of Science in Statistics.
 Universidad Nacional de Colombia. Bogota, Colombia.
 

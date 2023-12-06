@@ -1,4 +1,4 @@
-\name{BGWM.covar}
+﻿\name{BGWM.covar}
 \alias{BGWM.covar}
 \alias{BGWM.gener.covar}
 \alias{BGWM.indep.covar}
@@ -138,7 +138,7 @@ BGWM.covar(dists, type=c("general","multinomial","independents"),
 }
 \references{
 Torres-Jimenez, C. J. (2010), Relative frequencies and parameter 
-estimation in multi-type Bienaym? - Galton - Watson processes, 
+estimation in multi-type Bienayme - Galton - Watson processes, 
 Master's Thesis, Master of Science in Statistics.
 Universidad Nacional de Colombia. Bogota, Colombia.
 

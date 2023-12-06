@@ -1,16 +1,19 @@
-citHeader("To cite Branching in publications use this reference:")
-citEntry(
-entry="Mastersthesis",
+## R package reference generated from DESCRIPTION metadata
+citation(auto = meta)
+
+## Master thesis
+bibentry(
+bibtype="Mastersthesis",
 author = "Camilo Jose Torres-Jimenez",
-title = "{Relative frequencies and parameter estimation in multi-type Bienaymé - Galton - Watson processes}",
+title = "{Relative frequencies and parameter estimation in multi-type Bienayme - Galton - Watson processes}",
 school = "Master of Science in Statistics. Universidad Nacional de Colombia",
 year = "2010",
 month = "Marzo",
-address = "Bogotá, Colombia",
+address = "Bogota, Colombia",
 textVersion =
 paste("Torres-Jimenez, C. J. ",
 	    "(2010), ",
-      "Relative frequencies and parameter estimation in multi-type Bienaymé - Galton - Watson processes, ",
+      "Relative frequencies and parameter estimation in multi-type Bienayme - Galton - Watson processes, ",
       "Master of Science in Statistics. Universidad Nacional de Colombia, ",
       "Bogota, Colombia.",
       sep="")

@@ -1,4 +1,4 @@
-\name{BGWM.mean.estim}
+﻿\name{BGWM.mean.estim}
 \alias{BGWM.mean.estim}
 \alias{BGWM.mean.EE}
 \alias{BGWM.mean.MLE}
@@ -39,7 +39,7 @@ BGWM.mean.estim(sample, method=c("EE","MLE"), d, n, z0)
 }
 \references{
 Torres-Jimenez, C. J. (2010), Relative frequencies and parameter 
-estimation in multi-type Bienaym? - Galton - Watson processes, 
+estimation in multi-type Bienayme - Galton - Watson processes, 
 Master's Thesis, Master of Science in Statistics.
 Universidad Nacional de Colombia. Bogota, Colombia.
 

@@ -45,7 +45,7 @@ extern "C"  {
 	{
 	  for( l = 1 ; l <= max ; l++ )
           {
-            mean += cut0( round( rnorm( param1[i], param2[i] ) ) );
+            mean += cut0( fround( rnorm( param1[i], param2[i] ) , 0) );
           } // end for(l)
 	  mean /= max;
           mean_estim[i] = mean;
@@ -56,7 +56,7 @@ extern "C"  {
 	{
           for( l = 1 ; l <= max ; l++ )
           {
-            aux = cut0( round( rnorm( param1[i], param2[i] ) ) );
+            aux = cut0( fround( rnorm( param1[i], param2[i] ) , 0) );
 	    mean += aux;
 	    var += aux * aux;
           } // end for(l)
@@ -71,7 +71,7 @@ extern "C"  {
 	{
           for( l = 1 ; l <= max ; l++ )
           {
-            aux = cut0( round( rnorm( param1[i], param2[i] ) ) );
+            aux = cut0( fround( rnorm( param1[i], param2[i] ) , 0) );
 	    mean += aux;
 	    var += aux * aux;
           } // end for(l)
@@ -107,7 +107,7 @@ extern "C"  {
 	{
 	  for( l = 1 ; l <= max ; l++ )
           {
-            mean += round( rlnorm( param1[i], param2[i] ) );
+            mean += fround( rlnorm( param1[i], param2[i] ) , 0);
           } // end for(l)
 	  mean /= max;
           mean_estim[i] = mean;
@@ -118,7 +118,7 @@ extern "C"  {
 	{
           for( l = 1 ; l <= max ; l++ )
           {
-            aux = round( rlnorm( param1[i], param2[i] ) );
+            aux = fround( rlnorm( param1[i], param2[i] ) , 0);
 	    mean += aux;
 	    var += aux * aux;
           } // end for(l)
@@ -133,7 +133,7 @@ extern "C"  {
 	{
           for( l = 1 ; l <= max ; l++ )
           {
-            aux = round( rlnorm( param1[i], param2[i] ) );
+            aux = fround( rlnorm( param1[i], param2[i] ) , 0);
 	    mean += aux;
 	    var += aux * aux;
           } // end for(l)
@@ -169,7 +169,7 @@ extern "C"  {
 	{
 	  for( l = 1 ; l <= max ; l++ )
           {
-            mean += round( rgamma( param1[i], param2[i] ) );
+            mean += fround( rgamma( param1[i], param2[i] ) , 0);
           } // end for(l)
 	  mean /= max;
           mean_estim[i] = mean;
@@ -180,7 +180,7 @@ extern "C"  {
 	{
           for( l = 1 ; l <= max ; l++ )
           {
-            aux = round( rgamma( param1[i], param2[i] ) );
+            aux = fround( rgamma( param1[i], param2[i] ) , 0);
 	    mean += aux;
 	    var += aux * aux;
           } // end for(l)
@@ -195,7 +195,7 @@ extern "C"  {
 	{
           for( l = 1 ; l <= max ; l++ )
           {
-            aux = round( rgamma( param1[i], param2[i] ) );
+            aux = fround( rgamma( param1[i], param2[i] ) , 0);
 	    mean += aux;
 	    var += aux * aux;
           } // end for(l)

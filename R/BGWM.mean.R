@@ -1,6 +1,6 @@
-# These functions calculate the mean of a Bienayme - Galton - Watson 
+ï»¿# These functions calculate the mean of a Bienayme - Galton - Watson 
 # multitype processes. 
-# Copyright (C) 2010  Camilo José Torres Jiménez <cjtorresj@unal.edu.co>
+# Copyright (C) 2010  Camilo Jose Torres-Jimenez <cjtorresj@unal.edu.co>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
