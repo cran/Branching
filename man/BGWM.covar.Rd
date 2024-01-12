@@ -1,4 +1,4 @@
-﻿\name{BGWM.covar}
+\name{BGWM.covar}
 \alias{BGWM.covar}
 \alias{BGWM.gener.covar}
 \alias{BGWM.indep.covar}

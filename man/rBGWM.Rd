@@ -1,4 +1,4 @@
-﻿\name{rBGWM}
+\name{rBGWM}
 \alias{rBGWM}
 \alias{rBGWM.gener}
 \alias{rBGWM.indep}

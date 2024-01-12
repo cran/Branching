@@ -1,4 +1,4 @@
-﻿\name{BGWM.mean.estim}
+\name{BGWM.mean.estim}
 \alias{BGWM.mean.estim}
 \alias{BGWM.mean.EE}
 \alias{BGWM.mean.MLE}

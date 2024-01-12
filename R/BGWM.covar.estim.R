@@ -1,4 +1,4 @@
-﻿# These functions calculate a covariance estimation from observed sample of 
+# These functions calculate a covariance estimation from observed sample of 
 # Bienayme - Galton - Watson multitype processes. 
 # Copyright (C) 2010  Camilo Jose Torres-Jimenez <cjtorresj@unal.edu.co>
 

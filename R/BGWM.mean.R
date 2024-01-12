@@ -1,4 +1,4 @@
-﻿# These functions calculate the mean of a Bienayme - Galton - Watson 
+# These functions calculate the mean of a Bienayme - Galton - Watson 
 # multitype processes. 
 # Copyright (C) 2010  Camilo Jose Torres-Jimenez <cjtorresj@unal.edu.co>
 

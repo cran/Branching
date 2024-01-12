@@ -1,4 +1,4 @@
-﻿# These functions simulate Bienayme - Galton - Watson multitype processes.
+# These functions simulate Bienayme - Galton - Watson multitype processes.
 # Copyright (C) 2010  Camilo Jose Torres-Jimenez <cjtorresj@unal.edu.co>
 
 # This program is free software: you can redistribute it and/or modify

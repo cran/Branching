@@ -1,4 +1,4 @@
-﻿\name{BGWM.mean}
+\name{BGWM.mean}
 \alias{BGWM.mean}
 \alias{BGWM.gener.mean}
 \alias{BGWM.indep.mean}

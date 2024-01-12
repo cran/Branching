@@ -1,4 +1,4 @@
-﻿# These functions calculate the covariance from input variables of 
+# These functions calculate the covariance from input variables of 
 # Bienayme - Galton - Watson multitype processes. 
 # Copyright (C) 2010  Camilo Jose Torres-Jimenez <cjtorresj@unal.edu.co>
 

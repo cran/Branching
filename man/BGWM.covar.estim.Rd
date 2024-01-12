@@ -1,4 +1,4 @@
-﻿\name{BGWM.covar.estim}
+\name{BGWM.covar.estim}
 \alias{BGWM.covar.estim}
 \alias{BGWM.covar.EE}
 \alias{BGWM.covar.MLE}
